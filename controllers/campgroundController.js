@@ -102,7 +102,7 @@ module.exports.updateCampground=async(req,res,next)=>{
 
 module.exports.deleteCampground=async(req,res,next)=>{
     const {id}=req.params
-    const camp= await Campground.findById(id)
+    // const camp= await Campground.findById(id)
     // authorisation for deleting things done by isAuthor middleware
 
     // console.log(req.body)

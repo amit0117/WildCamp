@@ -1,11 +1,11 @@
 const express=require('express');
 const mongoose=require('mongoose')
-const catchAsync=require('./utils/catchAsync')
+// const catchAsync=require('./utils/catchAsync')
 var expressLayouts = require('express-ejs-layouts');
 const path =require('path')
 const Joi =require('joi');
-const ExpressError=require('./utils/ExpressError')
-const Campground=require('./models/Campground')
+// const ExpressError=require('./utils/ExpressError')
+// const Campground=require('./models/Campground')
 const methodOverride=require('method-override')
 mongoose.connect("mongodb://localhost:27017/yelp-camp"
 )

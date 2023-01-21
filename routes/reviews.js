@@ -6,11 +6,11 @@ const express=require('express')
 // but we have not access of it so for accessing params in app of
 // curr route we have to specify 'mergeparams:true'
 const router=express.Router({mergeParams:true})
-const Review=require('../models/review')
+// const Review=require('../models/review')
 const catchAsync=require('../utils/catchAsync')
-const ExpressError=require('../utils/ExpressError')
-const Campground=require('../models/Campground')
-const {reviewSchema}=require('../errorSchema')
+// const ExpressError=require('../utils/ExpressError')
+// const Campground=require('../models/Campground')
+// const {reviewSchema}=require('../errorSchema')
 const {validateReview,isLoggedin,isReviewAuthor}=require('../middleware')
 
 const reviewController=require('../controllers/reviewController')

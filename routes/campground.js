@@ -1,7 +1,7 @@
 const express=require('express')
 const router=express.Router();
 const catchAsync=require('../utils/catchAsync')
-const Campground=require('../models/Campground')
+// const Campground=require('../models/Campground')
 const {isLoggedin,validateCampground,isAuthor}=require('../middleware')
 const campgroundController=require('../controllers/campgroundController')
 //multer setup

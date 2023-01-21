@@ -35,8 +35,8 @@ db.once('open', () => {
   console.log('database connection established')
 })
 
-const multer = require('multer')
-const upload = multer({ dest: 'uploads/' })
+// const multer = require('multer')
+// const upload = multer({ dest: 'uploads/' })
 
 const app = express()
 
