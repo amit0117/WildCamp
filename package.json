@@ -1,0 +1,36 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "This is a camping website ,where user having facilities to share their own camping experience with others !!.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Kumar Amit",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "@mapbox/mapbox-sdk": "^0.14.0",
+    "cloudinary": "^1.32.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "joi": "^17.7.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}

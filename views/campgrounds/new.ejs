@@ -1,0 +1,64 @@
+<div class="row">
+    <h1 class="text-center">New Campground </h1>
+    <div class="col-md-4 offset-md-4">
+        <div class="card shadow mb-5">
+            <div class="card-body">
+       
+        <form action="/campground" method="POST" novalidate class="validated-form"enctype="multipart/form-data">
+            <div>
+                <label for="title" class="form-label">Title</label>
+                <input type="text" name="campground[title]" id="title" class="form-control" required>
+                <div class="valid-feedback">
+                  valid title  !!
+                 </div>
+            </div>
+
+            <div >
+                <label for="location" class="form-label">Location</label>
+                <input type="text" name="campground[location]" id="location" class="form-control" required>
+                <div class="valid-feedback">
+                    valid location !!
+                </div>
+            </div>
+            <div>
+                <label for="price" class="form-label">Campground Price</label>
+                <div class="input-group ">
+                    <span class="input-group-text" id="price-label">$</span>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="price" placeholder="$0.0000"
+                            name="campground[price]" required>
+                          
+                    </div>
+                </div>
+            </div>
+            <!-- <input type="file" name="image" id="" multiple> -->
+            <!-- <div>
+                <label for="image" class="form-label">Image Url</label>
+                <input type="text" name="campground[image]" id="image" class="form-control" required>
+                <div class="valid-feedback">
+                valid url !!
+                </div>
+            </div > -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Description </label>
+                <textarea type="text" name="campground[description]" id="description" class="form-control"
+                    placeholder="Leave a comment here..." required></textarea>
+                    <div class="valid-feedback">
+                     Valid description !!
+                    </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-file custom-file">
+                    <input type="file" class="form-file-input" id="image" name="image" multiple>
+                    <label class="form-file-label" for="image">
+                        <span class="form-file-text custom-file-label">Choose image(s)...</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mx-5 py-2">
+                <button class="btn btn-info">Create New Campground</button>
+            </div>
+        </form>
+    </div> </div>
+    </div>
+</div>
