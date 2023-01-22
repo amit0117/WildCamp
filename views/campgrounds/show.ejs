@@ -83,22 +83,22 @@
       </form>
       <%}%>
       <% for(let review of camp.reviews){ %>
-      <div class="card mb-3">
-        <div class="card-body">
-          <div class="mb-3">
-            <h6 class="card-subtitle mb-2 text-muted">By : <%=review.author.username%></h6>
-            <p class="starability-result" data-rating="<%= review.rating %>">
-              Rated: <%=review.rating%>
+    <div class="card mb-3 ">
+      <div class="card-body">
+          <h5 class="card-title"> By: <%= review.author.username%></h5>
+            <p class="starability-result " data-rating="<%=review.rating%>">
             </p>
-            <p class="card-text">Review : <%=review.body %> </p>
-            <%if(currentUser && review.author.equals(currentUser._id)){%>
+          
+          <p class="card-text">Review: <%= review.body %></p>
+          <%  if( currentUser && review.author.equals(currentUser._id))  {%>
             <form action="/campground/<%=camp._id %>/reviews/<%=review._id%>/?_method=DELETE" method="POST">
-              <button class="btn btn-sm btn-danger">Delete</button>
+              <button class="btn btn-sm btn-danger">Delete Review</button>
             </form>
-            <%}%>
-        </div>
+          <% } %>
       </div>
-    </div>
+  </div>
+
+
         <% } %>
           </div>
         </div>

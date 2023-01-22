@@ -3,6 +3,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // console.log(process.env.CLOUDINARY_KEY)
+const compression=require('compression')
 const express = require('express')
 const mongoose = require('mongoose')
 
@@ -69,6 +70,7 @@ const sessionConfiguration = {
     maxAge: 1000 * 60 * 60 * 24 * 7,
   },
 }
+app.use(compression())
 app.use(session(sessionConfiguration))
 app.use(flash())
 // passport use

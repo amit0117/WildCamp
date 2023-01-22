@@ -4,7 +4,7 @@
   "description": "This is a camping website ,where user having facilities to share their own camping experience with others !!.",
   "main": "index.js",
   "scripts": {
-    "build":"npm install",
+    "build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
@@ -14,6 +14,7 @@
     "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "@mapbox/mapbox-sdk": "^0.14.0",
     "cloudinary": "^1.32.0",
+    "compression": "^1.7.4",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.3",
