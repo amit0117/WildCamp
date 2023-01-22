@@ -4,7 +4,6 @@
   "description": "This is a camping website ,where user having facilities to share their own camping experience with others !!.",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
