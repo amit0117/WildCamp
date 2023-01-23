@@ -26,7 +26,7 @@ const seedDb=async()=>{
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quae, culpa, obcaecati veniam nisi dolorum fugit, autem optio fuga expedita consequatur qui dolore! Voluptas dolorum reprehenderit porro iusto consectetur quisquam?",
         price:randomprice,
         // currently this i have same save same for all campground object for testing
-        author:'63cbc66cf96eb17e02187f47',
+        author:'63cbb2e7fcbc73eae349a14b',
         // 63cbc66cf96eb17e02187f47
         images:[
             { 

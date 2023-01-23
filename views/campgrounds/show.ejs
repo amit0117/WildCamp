@@ -88,7 +88,6 @@
           <h5 class="card-title"> By: <%= review.author.username%></h5>
             <p class="starability-result " data-rating="<%=review.rating%>">
             </p>
-          
           <p class="card-text">Review: <%= review.body %></p>
           <%  if( currentUser && review.author.equals(currentUser._id))  {%>
             <form action="/campground/<%=camp._id %>/reviews/<%=review._id%>/?_method=DELETE" method="POST">
