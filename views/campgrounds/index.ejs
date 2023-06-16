@@ -3,7 +3,7 @@
 
 
 
-<h2 class="text-center">All Campgrounds are here!!</h2>
+<h2 class="text-center">All WildCamps are here!!</h2>
 
 <% for(let campground of campgrounds){ %>
    <div class="card mb-3">
@@ -25,7 +25,7 @@
           <p class="card-text"><%= campground.description %></p>
           <p class="card-text">
             <small class="text-muted"><%= campground.location %></small><br>
-            <small class="text-muted">Price: $<%= campground.price %></small>
+            <small class="text-muted">Price:Rs <%= campground.price %></small>
           </p>
           <a href="/campground/<%= campground._id %>" class="btn btn-primary"> View <%= campground.title %></a>
           

@@ -1,7 +1,7 @@
 
 
 <div class="row">
-    <h2 class="text-center">Edit Campground </h2>
+    <h2 class="text-center">Edit WildCamp </h2>
     <div class="col-md-5 offset-md-4">
         <div class="card shadow mb-5">
             <div class="card-body">
@@ -15,18 +15,18 @@
                 <input type="text" name="campground[location]" id="location" class="form-control"  value="<%=campground.location%>"required>
             </div>
             <div>
-                <label for="price" class="form-label">Campground Price</label>
+                <label for="price" class="form-label">WildCamp Price</label>
                 <div class="input-group ">
-                    <span class="input-group-text" id="price-label">$</span>
+                    <span class="input-group-text" id="price-label">Rs</span>
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="price" placeholder="$0.0000"
+                        <input type="text" class="form-control" id="price" placeholder="Rs 50.0000"
                         name="campground[price]"  value="<%=campground.price%>"required>
                     </div>
                 </div>
             </div>
             
             <div class="mb-2">
-                <label for="description" class="form-label">Description Url</label>
+                <label for="description" class="form-label">Description</label>
                 <textarea type="text" name="campground[description]" id="description" class="form-control"
                 placeholder="Leave a comment here..."  required><%= campground.description %></textarea>
             </div>
@@ -48,7 +48,7 @@
                     <%})%>
             </div>
             <div class="mx-5 py-2">
-                <button class="btn btn-success">Edit Campground</button>
+                <button class="btn btn-success">Edit WildCamp</button>
             </div>
         </form>
 </div>
