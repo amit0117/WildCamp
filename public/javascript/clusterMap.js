@@ -13,7 +13,7 @@
 		// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
 		style: 'mapbox://styles/mapbox/light-v11',
 		center: [77.947998,23.473324],
-		zoom: 4
+		zoom: 4.5
 	});
 	map.addControl(new mapboxgl.NavigationControl());
 	
