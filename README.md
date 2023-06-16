@@ -8,7 +8,8 @@ WildCamp is built using following tech stacks:<br>
 
 
 ### Screenshots
-1) Home Page<br><img width="960" alt="Capture" src="https://github.com/amit0117/WildCamp/assets/103520570/33ce1ca7-f217-44b2-b5ad-79bb94bafa25">
+1) Home Page<br><img width="960" alt="Capture" src="https://github.com/amit0117/WildCamp/assets/103520570/29fdfbd1-dd9d-486b-bbaa-34dd16d5a647">
+
 <br>
 2) Login Page<br>
 <img width="960" alt="login page" src="https://github.com/amit0117/WildCamp/assets/103520570/a83b3fac-a911-45e3-8d6c-696982e4c9c8">
