@@ -11,20 +11,28 @@ WildCamp is built using following tech stacks:<br>
 1) Home Page<br><img width="960" alt="Capture" src="https://github.com/amit0117/WildCamp/assets/103520570/29fdfbd1-dd9d-486b-bbaa-34dd16d5a647">
 
 <br>
-2) Login Page<br>
-<img width="960" alt="login page" src="https://github.com/amit0117/WildCamp/assets/103520570/a83b3fac-a911-45e3-8d6c-696982e4c9c8">
+2) Login Page<br><img width="960" alt="login page" src="https://github.com/amit0117/WildCamp/assets/103520570/eeb4f467-3c69-4271-8ed0-036e1cd9c42d">
 
-3)Register Page<br><img width="948" alt="register page" src="https://github.com/amit0117/WildCamp/assets/103520570/1e4df99b-fdfd-4d6f-a97f-64122d330da9"><br>
-4)Create WildCamp Page<br><img width="947" alt="create page" src="https://github.com/amit0117/WildCamp/assets/103520570/2eaf0255-19e4-4bfc-a3a6-dfd93e56cc86"><br>
+
+
+3)Register Page<br><img width="948" alt="register page" src="https://github.com/amit0117/WildCamp/assets/103520570/0e979924-2f21-404e-a159-108f9f25218b">
+
+4)Create WildCamp Page<br><img width="947" alt="create page" src="https://github.com/amit0117/WildCamp/assets/103520570/3d53cd2f-c21a-4130-98c0-75b2353380c0">
+
 
 5)Edit Page<br>
-<img width="949" alt="edit wildcamp page" src="https://github.com/amit0117/WildCamp/assets/103520570/150d7db3-4d78-465b-afc6-d5677e2735eb"><br>
-6)Index Page<br><img width="943" alt="index page" src="https://github.com/amit0117/WildCamp/assets/103520570/0b295211-d1ee-465e-87fb-5bde7a284969"><br><img width="759" alt="all campground pages" src="https://github.com/amit0117/WildCamp/assets/103520570/4b53b819-f535-4165-b712-ac9f8fffad4a"><br>
+<img width="949" alt="edit wildcamp page" src="https://github.com/amit0117/WildCamp/assets/103520570/1a2df29a-2a31-4153-b40e-c6355d26097d">
 
-7)Particular Wildcamp page<br>
-<img width="948" alt="a wildcamp page" src="https://github.com/amit0117/WildCamp/assets/103520570/cfe7de6b-9c7d-42ea-a84d-63d02720519b"><br>
-8)Review page<br>
- <img width="374" alt="review page" src="https://github.com/amit0117/WildCamp/assets/103520570/bd4752ff-d405-477d-b140-246b076640be">
+6)Index Page<br>
+<img width="943" alt="index page" src="https://github.com/amit0117/WildCamp/assets/103520570/15b35db6-4fb9-4f89-bbc4-abfa3770409f">
+<br><br><img width="759" alt="all campground pages" src="https://github.com/amit0117/WildCamp/assets/103520570/6e006ad1-a6f5-463c-8801-dba465ef45dd">
+<br>
+7)Particular Wildcamp page<br><img width="948" alt="a wildcamp page" src="https://github.com/amit0117/WildCamp/assets/103520570/403726a0-23f2-45f7-a300-42c7f94a4c9c">
+
+<br>
+8)Review page<br><img width="374" alt="review page" src="https://github.com/amit0117/WildCamp/assets/103520570/0f3d939a-3342-4454-ac1b-62b459fe6ce7">
+
+ 
 
 ## Features
 1)Full featured camping application.<br>
