@@ -57,7 +57,7 @@ campgroundschema.virtual('properties.popUpMarkup').get(function(){
     // return "i am gettin text"
 })
 campgroundschema.post('findOneAndDelete',async(doc)=>{
-    console.log("deleting")
+    // console.log("deleting")
     if(doc){
         
         await Review.deleteMany({

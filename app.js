@@ -49,7 +49,7 @@ app.use(methodOverride('_method'))
 app.use(express.static('public'))
 
 const store = new MongoStore({
-  //NAME THIS ASA mongoUrl else get error
+  // NAME THIS ASA mongoUrl else get error
   // mongoUrl: 'mongodb://localhost:27017/yelp-camp',
   // mongoUrl:mongo_url,
   mongoUrl:mongo_url,
@@ -125,7 +125,7 @@ app.all('*', (req, res, next) => {
 //error middleware
 app.use((err, req, res, next) => {
   const { status = 500 } = err
-  if (!err) err.message = 'Oh No .Something went wrong !!'
+  if (!err) err.message = 'Oops!! Something went wrong ...'
   res.status(status).render('error', { err, title: 'error' })
 })
 
